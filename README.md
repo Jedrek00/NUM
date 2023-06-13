@@ -4,3 +4,4 @@
 
 2. MLFlow: po uruchomieniu skryptu w konsoli wpisujesz `mlflow ui` i pod http://localhost:5000/ masz wyniki.
 3. DVC: Aby pobrać najnowsze zmiany w datasecie wpisujesz w konsoli `dvc pull`. Wcześniej musisz mieć [zainstalowane](https://dvc.org/doc/install) dvc.
+4. Streamlit: W katalogu z plikiem stream.py wykonaj `streamlit run stream.py` a zostaniesz przeniesiony na stronę z ręcznym sprawdzaniem predykcji modelu

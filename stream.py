@@ -31,7 +31,6 @@ else:
     all = os.listdir('data/Pistachio_Image_Dataset/Siirt_Pistachio')
     random_photo = 'data/Pistachio_Image_Dataset/Siirt_Pistachio/' + random.choice(all)
     label = 'Siirt'
-print(label)
 
 # model.predict(normalize_img(tf.image.decode_jpeg(tf.io.read_file(random_photo)), '')[0])
 
